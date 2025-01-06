@@ -28,11 +28,11 @@ export class Track extends Model<Track> {
     duration: number
 
     @Default(0)
-    @Column(DataType.BOOLEAN)
+    @Column(DataType.INTEGER)
     hidden: boolean
 
     @Default(1)
-    @Column(DataType.BOOLEAN)
+    @Column(DataType.INTEGER)
     status: Boolean
 
     @CreatedAt

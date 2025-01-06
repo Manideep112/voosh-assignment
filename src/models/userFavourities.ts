@@ -26,7 +26,7 @@ export class UserFavourities extends Model<UserFavourities>{
     name : string
   
     @Default(1)
-    @Column(DataType.BOOLEAN)
+    @Column(DataType.INTEGER)
     status: Boolean
 
     @CreatedAt

@@ -19,7 +19,7 @@ export class UserLogin extends Model<UserLogin> {
     token: string
 
     @Default(1)
-    @Column(DataType.BOOLEAN)
+    @Column(DataType.INTEGER)
     status: boolean
 
     @CreatedAt

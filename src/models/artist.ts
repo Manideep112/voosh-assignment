@@ -19,11 +19,11 @@ export class Artist extends Model<Artist>{
     grammy : string
 
     @Default(0)
-    @Column(DataType.BOOLEAN)
+    @Column(DataType.INTEGER)
     hidden : Boolean
      
     @Default(1)
-    @Column(DataType.BOOLEAN)
+    @Column(DataType.INTEGER)
     status: Boolean
 
     @CreatedAt

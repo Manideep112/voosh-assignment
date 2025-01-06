@@ -22,7 +22,7 @@ export class User extends Model<User> {
     role: string
 
     @Default(1)
-    @Column(DataType.BOOLEAN)
+    @Column(DataType.INTEGER)
     status: boolean
 
     @CreatedAt

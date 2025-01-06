@@ -24,11 +24,11 @@ export class Album extends Model<Album> {
     year: number
 
     @Default(0)
-    @Column(DataType.BOOLEAN)
+    @Column(DataType.INTEGER)
     hidden: boolean
 
     @Default(1)
-    @Column(DataType.BOOLEAN)
+    @Column(DataType.INTEGER)
     status: Boolean
 
     @CreatedAt
