@@ -18,7 +18,7 @@ class UserController {
             const payload = req.body;
 
             const where: any = {
-                role: 'ADMIN',
+                role: 'Admin',
                 status: 1
             }
             const condition = {
